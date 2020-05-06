@@ -45,7 +45,7 @@ cacheSolve <- function(x, ...) {
   inverse
 }
 
-##Now i check id it's working
+##Now i check if it's working
 matrix = makeCacheMatrix(matrix(c(15,20,25,30), nrow = 2, ncol = 2))
 matrix$get()
 matrix$set()
